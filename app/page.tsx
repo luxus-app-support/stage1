@@ -10,6 +10,7 @@ import Head from 'next/head';
 import SidebarMenu from './components/SidebarMenu';
 import HeaderPage from './components/Header';
 import TopCards from './components/dashboard/TopCards';
+import ProfilePage from './components/profile/page';
 
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
             <div className="order-last "> 
             <HeaderPage />
             <TopCards/>
+            
             </div>
       
             
